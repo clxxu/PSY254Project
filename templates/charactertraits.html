@@ -1,0 +1,21 @@
+{% include 'header.html' %}
+
+<div class='container'>
+    <div class="text-center">
+        <img src="https://s3-us-west-2.amazonaws.com/uw-s3-cdn/wp-content/uploads/sites/6/2016/11/04145139/Diverse-group-of-children.jpg"
+            style="max-width: 80%; height: auto;">
+        <h2>
+            Your child is {{trait1}}, {{trait2}}, {{trait3}}, and {{trait4}}.
+        </h2>
+        <br>
+        <a href="{{ url_for('home') }}" class="btn btn-lg btn-info" role="button">Replay</a>
+    </div>
+    
+
+
+</div>
+
+<br>
+<br>
+
+{% include 'footer.html' %}
